@@ -2,11 +2,11 @@ const language = [{
   skillName: 'JavaScript (ES 2018)',
   proficiency: 80,
   detail: [
+    '原生模块',
+    'Class的创建和继承',
     '模板字符串',
     'Set对象',
-    'async函数',
-    'Class的创建和继承',
-    'Module导入导出'
+    'async函数'
   ],
   collapse: false
 }, {
@@ -15,6 +15,7 @@ const language = [{
   detail: [
     '语义化标签',
     'canvas绘制',
+    'FormData、Blob等新对象',
     'progress、dialog、video等新标签',
     'contenteditable等新属性'
   ],
@@ -24,11 +25,10 @@ const language = [{
   proficiency: 85,
   detail: [
     'SASS',
-    'grid布局',
-    'flex布局',
+    'grid / flex布局',
+    '响应式单位',
     '媒体查询',
-    'animation',
-    'transition'
+    'animation / transition',
   ],
   collapse: false
 }, {
@@ -37,8 +37,8 @@ const language = [{
   detail: [
     '内置组件',
     '数据绑定',
-    '列表渲染',
-    '条件渲染'
+    '列表、条件渲染',
+    '云开发'
   ],
   collapse: false
 }]
@@ -60,6 +60,36 @@ const library = [{
   ],
   collapse: false
 }, {
+  skillName: 'three.js',
+  proficiency: 65,
+  detail: [
+    '创建几何体、材质',
+    '选择物体',
+    '绘制几何体',
+    'requestAnimationFrame'
+  ],
+  collapse: false
+}, {
+  skillName: 'express',
+  proficiency: 70,
+  detail: [
+    '使用generator初始化项目',
+    '基础的路由规则',
+    '使用pug模板引擎',
+    '增删查改数据库'
+  ],
+  collapse: false
+}, {
+  skillName: 'node.js',
+  proficiency: 70,
+  detail: [
+    'NPM',
+    'webpack构建',
+    '发送请求抓取html',
+    '读写本地文件'
+  ],
+  collapse: false
+}, {
   skillName: 'Bootstrap',
   proficiency: 90,
   detail: [
@@ -68,23 +98,11 @@ const library = [{
   ],
   collapse: false
 }, {
-  skillName: 'node.js',
-  proficiency: 70,
+  skillName: 'MongoDB',
+  proficiency: 50,
   detail: [
-    'NPM',
-    'webpack构建工具',
-    '建立本地服务器',
-    '发送请求抓取html',
-    '读写本地文件'
-  ],
-  collapse: false
-}, {
-  skillName: 'three.js',
-  proficiency: 65,
-  detail: [
-    '创建几何体',
-    '创建材质',
-    'requestAnimationFrame'
+    'MongoDB Atlas',
+    '简单CRUD操作'
   ],
   collapse: false
 }]

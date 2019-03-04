@@ -2,7 +2,7 @@
   <section id="skill">
     <SectionTitle icon="wrench" title="技能" />
     <SkillGroup icon="code" title="编程语言" :src="language" />
-    <SkillGroup icon="code" title="Web框架" :src="library" />
+    <SkillGroup icon="code" title="Web相关技术" :src="library" />
     <SkillGroup icon="desktop" title="软件" :src="software" />
   </section>
 </template>

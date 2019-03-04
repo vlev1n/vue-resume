@@ -1,5 +1,10 @@
 const entries = [
   {
+    'time': '2019.03至今',
+    'school': 'Rails 365编程学院',
+    'course': 'Pro学员',
+    'detail': '持续学习全栈技术。已学习Nodejs + Express + MongoDB基础篇。'
+  }, {
     'time': '2018.08 - 2019.06',
     'school': '腾讯NEXT学位',
     'course': '前端工程师进阶班',

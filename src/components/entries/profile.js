@@ -1,6 +1,6 @@
 const entries = [{
   icon: 'id-card',
-  text: '21岁'
+  text: '22岁'
 }, {
   icon: 'location',
   text: '山东青岛'

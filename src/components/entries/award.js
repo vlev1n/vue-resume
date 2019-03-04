@@ -35,7 +35,7 @@ const idea = [
     collapse: true
   }, {
     time: '2017.05',
-    awardName: '中国海洋大学“第五届创业精英大赛”',
+    awardName: '中国海洋大学第五届创业精英大赛',
     prize: '校级二等奖',
     collapse: true
   }, {
@@ -60,7 +60,7 @@ const idea = [
     collapse: true
   }, {
     time: '2016.05',
-    awardName: '海大第四届创业精英大赛',
+    awardName: '中国海洋大学第四届创业精英大赛',
     prize: '校级三等奖',
     collapse: true
   }

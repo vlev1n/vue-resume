@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width = device-width, initial-scale = 1">
+    <title>总督楼全景APP</title>
+    <style media="screen">
+      body {
+        margin: 0;
+        display: grid;
+        grid-auto-flow: row;
+        grid-gap: 1rem;
+        justify-content: center;
+        justify-items: center;
+        align-content: center;
+        min-height: 100vh;
+      }
+      img {
+        width: 128px;
+      }
+      section {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+      }
+      button {
+        padding: .5rem;
+        border: 0;
+        border-radius: .5rem;
+        background: darkturquoise;
+        font-size: larger;
+        color: azure;
+      }
+      button:hover {
+        transition: background .25s;
+        background: paleturquoise;
+        color: darkturquoise;
+      }
+      small {
+        color: dimgray;
+      }
+    </style>
+  </head>
+  <body>
+    <img id="img" src="./guest-house-icon.png" alt="微信小程序二维码">
+    <section>
+      <a href="http://www.cgdalao.com/guest-house-online/index.html"><button type="button">在线体验</button></a>
+      <small>仅支持手机，将消耗约35M流量</small>
+    </section>
+    <!-- <section>
+      <a href="./guest-house.apk"><button type="button">立即下载</button></a>
+      <small>仅支持Android</small>
+    </section> -->
+  </body>
+</html>

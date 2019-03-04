@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width = device-width, initial-scale = 1">
+    <title>微信小程序比赛证书</title>
+    <style media="screen">
+      body {
+        text-align: center;
+        /* display: flex;
+        justify-content: center; */
+        margin: 0;
+        background: whitesmoke;
+      }
+      .preview {
+        height: 100vh;
+        width: auto;
+        cursor: zoom-in;
+      }
+      .full-size {
+        height: 100%;
+        cursor: zoom-out;
+      }
+    </style>
+  </head>
+  <body>
+    <img id="img" class="preview" src="./mini-program.jpg" alt="微信小程序比赛证书">
+    <script type="text/javascript">
+      let img = document.getElementById('img')
+      let zoomInFlag = true
+      img.addEventListener('click', () => {
+        img.className = zoomInFlag ? 'full-size' : 'preview'
+        zoomInFlag = !zoomInFlag
+      })
+    </script>
+  </body>
+</html>

@@ -3,6 +3,7 @@
     <Name />
     <Intention />
     <Education />
+    <Certificate />
     <Project @open-dialog="$emit('open-dialog', $event)" />
     <MidwayNote @expand="$emit('expand')" />
     <Internship />
@@ -16,6 +17,7 @@
 <script>
 import Name from './Name.vue'
 import Intention from './Intention.vue'
+import Certificate from './Certificate.vue'
 import Education from './Education.vue'
 import Project from './Project.vue'
 import Internship from './Internship.vue'
@@ -29,6 +31,7 @@ export default {
   components: {
     Name,
     Intention,
+    Certificate,
     Education,
     Project,
     Internship,

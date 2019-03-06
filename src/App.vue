@@ -49,6 +49,10 @@ export default {
 
 <style lang="sass">
 @import './components/variables.sass'
+html
+  @media print
+    font-size: 10px
+
 body
   display: flex
   justify-content: center
@@ -62,6 +66,12 @@ body
     grid-template-columns: 1fr 2fr
     justify-content: center
     max-width: 1024px
+  @media print
+    display: grid
+    grid-auto-flow: column
+    grid-template-columns: 1fr 3fr
+    justify-content: center
+    line-height: 1
 
 aside, main
   box-sizing: border-box

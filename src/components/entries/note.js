@@ -6,7 +6,7 @@ const note = [{
 }, {
   str: '本简历为响应式，在不同大小的设备上，布局不同，内容也略有不同'
 }, {
-  str: '本简历存放于我的github'
+  str: '本简历存放于我的GitHhub：https://vlev1n.github.io/vue-resume/'
 }/*, {
   str: '本简历的git地址为：<a href="#">点击进入</a>'
 }*/]

@@ -27,4 +27,6 @@
       background: $highlight
       opacity: .75
       color: white
+    @media print
+      display: none
 </style>

@@ -36,6 +36,8 @@ export default {
   grid-template-columns: repeat(3 / auto)
   @media screen and (min-width: $mobile)
     grid-template-columns: repeat(2 / auto)
+  @media print
+    display: none
   grid-auto-flow: row
   grid-gap: .5rem
   > small

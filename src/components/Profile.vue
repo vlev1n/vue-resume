@@ -1,6 +1,6 @@
 <template>
   <section id="profile">
-    <img src="../assets/avatar-aliyun.jpg" alt="滑稽" />
+    <img src="../assets/avatar-transparent.png" alt="滑稽" />
     <ul>
       <li v-for="item in src" :key="item.index" :class="`icon-${item.icon}`">{{item.text}}</li>
     </ul>
@@ -8,15 +8,15 @@
 </template>
 
 <script>
-  import entries from './entries/profile.js'
-  export default {
-    name: 'Profile',
-    data: () => {
-      return {
-        src: entries
-      }
+import entries from "./entries/profile.js"
+export default {
+  name: "Profile",
+  data: () => {
+    return {
+      src: entries
     }
   }
+}
 </script>
 
 <style media="screen" lang="sass">

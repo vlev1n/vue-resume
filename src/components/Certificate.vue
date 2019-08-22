@@ -2,7 +2,7 @@
   <section id="certificate">
     <SectionTitle icon="graduation-cap" title="获得证书" />
     <table class="volunteering-table">
-      <CertificateEntry v-for="item in entries" :entry="item" />
+      <CertificateEntry v-for="(item,index) in entries" :key="index" :entry="item" />
     </table>
   </section>
 </template>
